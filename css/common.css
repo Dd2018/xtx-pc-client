@@ -1,0 +1,213 @@
+/* -------------------公共通用样式 */
+
+.container {
+    width: 1240px;
+    margin: 0 auto;
+}
+
+
+/*--------------------顶部快捷导航 xtx-header*/
+
+.xtx-header {
+    height: 52px;
+    background-color: #333333;
+}
+
+.xtx-header .container {
+    height: 52px;
+    /* background-color: pink; */
+}
+
+.xtx-header .container .header-nav li {
+    float: left;
+    height: 52px;
+    line-height: 52px;
+    font-size: 14px;
+    color: #666666;
+}
+
+.xtx-header .container .header-nav li a {
+    margin: 0 16px;
+    font-size: 14px;
+    color: #dcdcdc;
+}
+
+.xtx-header .container .header-nav li:last-child a {
+    margin-right: 0;
+    margin-left: 8px;
+}
+
+.xtx-header .container .header-nav li:last-child a::before {
+    content: '';
+    float: left;
+    margin-top: 18px;
+    margin-left: 15px;
+    width: 11px;
+    height: 16px;
+    /* background-color: red; */
+    background: url(../images/sprites.png) -160px -70px;
+}
+
+
+/* -------------------------导航主体 head-main-nav */
+
+.head-main-nav {
+    padding-top: 30px;
+    height: 130px;
+    /* background-color: pink; */
+    box-sizing: border-box;
+}
+
+.head-main-nav .logo {
+    margin-left: 25px;
+    width: 207px;
+    height: 70px;
+    background-color: orange;
+    background: url(../images/logo.png);
+    background-size: 100% 100%;
+}
+
+.head-main-nav .logo a {
+    font-size: 0;
+}
+
+.head-main-nav .main-nav {
+    margin-top: 26px;
+}
+
+.head-main-nav .main-nav li {
+    float: left;
+    margin-right: 48px;
+}
+
+.head-main-nav .main-nav li:first-child {
+    margin-left: 40px;
+}
+
+.head-main-nav .main-nav li a:hover {
+    padding-bottom: 7px;
+    color: #27ba9b;
+    border-bottom: 1px solid #27ba9b;
+}
+
+.head-main-nav .search {
+    position: relative;
+    margin-top: 24px;
+    margin-left: 34px;
+    width: 172px;
+    height: 30px;
+}
+
+.head-main-nav .search input {
+    padding-left: 31px;
+    width: 172px;
+    height: 30px;
+    border-bottom: 2px solid #e7e7e7;
+}
+
+.head-main-nav .search .search_img {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    width: 18px;
+    height: 18px;
+    /* background-color: red; */
+    background: url(../images/sprites.png) -80px -70px;
+}
+
+.head-main-nav .cart {
+    position: relative;
+    margin-top: 28px;
+    margin-left: 15px;
+    width: 23px;
+    height: 23px;
+    background-color: red;
+    background: url(../images/sprites.png) -120px -70px;
+}
+
+.head-main-nav .cart .cart_num {
+    position: absolute;
+    top: -5px;
+    right: -12px;
+    width: 20px;
+    height: 14px;
+    background-color: #e26237;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 13px;
+    text-align: center;
+    line-height: 14px;
+}
+
+
+/* ------------------------------脚部 */
+
+
+/* ------------------------------服务栏  xtx-service*/
+
+.xtx-service {
+    height: 174px;
+    background-color: #333;
+}
+
+.xtx-service .container {
+    height: 173px;
+    width: 1393px;
+    /* background-color: pink; */
+    border-bottom: 1px solid #434343;
+}
+
+.xtx-service a {
+    float: left;
+    width: 33.33%;
+    height: 173px;
+    line-height: 173px;
+    text-align: center;
+    font-size: 28px;
+    color: #fff;
+}
+
+.xtx-service a::before {
+    display: inline-block;
+    content: '';
+    margin-right: 19px;
+    width: 58px;
+    height: 58px;
+    /* background-color: red; */
+    background: url(../images/sprites.png) 0 0;
+    vertical-align: middle;
+}
+
+.xtx-service a:nth-child(2)::before {
+    background-position: -130px 0;
+}
+
+.xtx-service a:nth-child(3)::before {
+    background-position: -65px 0;
+}
+
+.xtx-copyright {
+    height: 186px;
+    background-color: #333;
+}
+
+.xtx-copyright .container {
+    padding-top: 44px;
+    height: 186px;
+    text-align: center;
+    /* background-color: pink; */
+    box-sizing: border-box;
+}
+
+.xtx-copyright p {
+    font-size: 14px;
+    color: #999999;
+}
+
+.xtx-copyright p:first-child {
+    height: 34px;
+}
+
+.xtx-copyright p a {
+    color: #999999;
+}
